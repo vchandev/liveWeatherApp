@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 200px 100px 100px 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(255,255,255), rgb(47,150,163), rgb(48,62,143));
+    background-attachment: fixed !important;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    color: white;
+}
+
+.location {
+    height: 20vh;
+    width: 50%;
+    padding: 10px 10px 10px 10px;  
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#weather-title {
+    padding: 10px 10px 10px 10px;   
+}
+
+#location-city {
+    padding: 5px 5px 5px 5px; 
+}
+
+#location-country {
+    padding: 5px 5px 5px 5px; 
+}
+
+.weather {
+    height: 25vh;
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temperature {
+    height: 15vh;
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span {
+    margin: 10px;
+    font-size: 3em;
+}
+
+.degree-section h1 {
+    font-size: 3em;
+}
+
+#weather-description {
+    font-size: 2em;
+}
+
+#searchbox {
+    width: 300px;
+    height: 1.7em;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: white;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+  }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 50% ;/* Firefox */
+}
+
+#search-button {
+    width: 10em;
+    height: 2em;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+    border-radius: 500px;
+    transition: 0.3s;
+}
+
+#location-button {
+    width: 2em;
+    height: 2em;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    cursor: pointer;
+    border-radius: 500px;
+    transition: 0.3s;
+}
+
+#location-button span {
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#search-button:hover,
+#location-button:hover {
+    background-color: transparent;
+    border-color: rgb(47,150,163);
+    color: rgb(47,150,163);
+ }
+
+.weather-conditions {
+    padding: 50px 50px 50px 50px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-style: hidden;
+    
+}
+
+table tr {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table td {
+    padding: 1rem;
+    border-left: 1px solid white;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    align-items: center;
+}
+
+#error-message {
+    color: red;
+    font-family: 'Avenir', Helvetica, sans-serif;
+}
+
+#footer-space {
+    padding: 100px 100px 100px 100px;
+}

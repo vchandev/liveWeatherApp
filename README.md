@@ -11,7 +11,7 @@ This is an animated live weather app that calls the OpenWeather API to retrieve 
 
 <img width="600" alt="Screen Shot 2020-12-20 at 2 03 26 PM" src="https://user-images.githubusercontent.com/25806927/102721993-28311900-42cc-11eb-99f5-9820e55f5f57.png">
 
-This app makes axios calls to the OpenWeather API to retrieve weather information. Because on the design of the OpenWeather API, this app actually has to make two calls – one for the current weather based on city name to get the geolocation coordinates, then also make another call to different endpoint using the coordinates to get the 5-day forecast for that location. If the API allowed both current weather and 5-day forecast under one endpoint, I would love to consolidate the API calls for an even faster and smoother experience.
+This app makes axios calls to the OpenWeather API to retrieve weather information. Because on the design of the OpenWeather API, this app actually has to make two calls – one for the current weather based on city name to get the geolocation coordinates, then also make another call to a different endpoint using the coordinates to get the 5-day forecast for that location. If the API allowed both current weather and 5-day forecast under one endpoint, I would love to consolidate the API calls for an even faster and smoother experience.
 
 <img width="600" alt="Screen Shot 2020-12-19 at 6 36 36 PM" src="https://user-images.githubusercontent.com/25806927/102721838-48aca380-42cb-11eb-9337-14d6ff2a4bdb.png">
 
